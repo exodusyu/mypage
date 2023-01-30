@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+        * {
+            font-family: 'Hahmlet', serif;
+        }
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+            background-size: cover;
+            background-position: center;
+            
+            margin: auto;
+        }
+
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+        }
+
+        .title {
+            color: white; /* 글자 색을 바꾸는 명령어 */
+            background-color: tomato;  /* 구역의 배경색을 바꾸는 명령어 */
+            font-size: 24px;
+            padding: 4px 14px; /* 배경에 안쪽 여백을 주는 명령어 */
+            border-radius: 10px; /* 배경의 테두리를 둥글게 만드는 명령어 */
+            font-weight: bold;/* 글자를 굵게 만들어주는 font-weight */
+        }
+
+        .msg {
+            margin: -5px 0 15px;
+            font-weight: bold;
+        }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg">
+    <h1 class="title center">2023 신년계획</h1>
+    <p class="msg center">올해 목표 꼭 완수하자! </p>
+    <div class="flex-row wrap">
+        <div class="bucket img1 center">프로그래밍 익히기</div>
+        <div class="bucket img2 center">여행영어 공부하기</div>
+        <div class="bucket img2 center">자격증 준비하기</div>
+        <div class="bucket img1 center">기상후 30분 스트레칭하기</div>
+        <div class="bucket img1 center">자전거 출퇴근하기(주3회이상)</div>
+        <div class="bucket img2 center">가족여행 가기(월1회)</div>
+
+    </div>
+</body>
+
+</html>
